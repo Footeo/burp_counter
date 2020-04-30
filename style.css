@@ -144,6 +144,15 @@ body {
 	scale: 10%;
 	border: 10px solid #E95D0F;
 	border-radius: 50%;
+	box-shadow: 0 7px #999;
+}
+#burp-button:hover {background-color: #3e8e41}
+
+#burp-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
 }
 #speaker-img {
 	display: flex;
