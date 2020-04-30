@@ -130,7 +130,27 @@ body {
 	text-align: center;
 	padding: 1em;
 }
-#burp-counter {
+
+
+.burp-container {
 	
+	display: flex;
 	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+#burp-button {
+	padding: .5em 1em;
+	scale: 10%;
+	border: 10px solid #E95D0F;
+	border-radius: 50%;
+}
+#speaker-img {
+	display: flex;
+	max-width: 100px;
+	padding: 1em;
+}
+.closing {
+	padding: 1em;
+	text-align: center;
 }
