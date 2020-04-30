@@ -24,7 +24,7 @@
         <p class="to-hide">Please enter the cuprits name in the box.
           <input id="input-name" maxlength="20" placeholder="Enter Name" style="max-width: 108px;"></input>  <button class="to-hide" id="enter-button">Enter</button></p>
         
-        <h3 id="input-area-text"><strong id="culprit"></strong> (hide on inital entry) burped<a id="counter">0</a>times today! <a id="add-text">(at 10 say 'slow down big fella!')</a></h3>
+        <h3 id="input-area-text"><strong id="culprit"></strong> burped<a id="counter">0</a>times today! <a id="add-text"></a></h3>
       </div>
       <!-- Add counter in JS and a cycle of sentences when a certain number of clicks is reached.-->
       <!-- when the counter reaches like 10 or something make it flash red or something -->
@@ -32,6 +32,10 @@
         
         <button id="burp-button">
           <img id="speaker-img" src="1294298.png">
+          <audio class="hide">
+            <source class ="sample" src="audio/Burp-A1.mp3">
+            <!-- <source class ="sample" src="audio/Burp-A2.mp3"> -->
+          </audio>
         </button> 
         
         
