@@ -130,7 +130,14 @@ body {
 	text-align: center;
 	padding: 1em;
 }
-
+/* #enter-button {
+	text-align: ;
+} */
+.hidden {
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+}
 
 .burp-container {
 	
@@ -146,13 +153,13 @@ body {
 	border-radius: 50%;
 	box-shadow: 0 7px #999;
 }
+
 #burp-button:hover {background-color: #3e8e41}
 
 #burp-button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-  
 }
 #speaker-img {
 	display: flex;
@@ -162,4 +169,13 @@ body {
 .closing {
 	padding: 1em;
 	text-align: center;
+}
+
+#new-entry {
+	padding-top: 2em;
+	font-size: 80%;
+	text-align: center;
+}
+#new-button {
+	font-size: 80%;
 }
