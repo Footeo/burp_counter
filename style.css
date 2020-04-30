@@ -109,3 +109,28 @@ body {
     padding: 0;
 }
 
+.masthead {
+	text-align: center;
+	padding: 1em;
+	background-color: #BEA8A8;
+	font-weight: bold;
+}
+#intro-text {
+	text-align: center;
+	color: white;
+	background-color: #9C1414;
+	padding: 1.5em;
+	
+}
+#counter {
+	text-align: center;
+	padding: 0.5em;
+}
+.input-area {
+	text-align: center;
+	padding: 1em;
+}
+#burp-counter {
+	
+	align-items: center;
+}
